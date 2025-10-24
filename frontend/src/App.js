@@ -7,7 +7,7 @@ import React, { useState, useEffect, useCallback } from 'react';
        const [errors, setErrors] = useState({});
        const [isLoading, setIsLoading] = useState(false);
        const [apiError, setApiError] = useState('');
-       const API_URL = process.env.REACT_APP_API_URL;
+       const API_URL = http://13.48.30.140:5000;
 
        console.log('API_URL:', API_URL); // Debug .env
 
