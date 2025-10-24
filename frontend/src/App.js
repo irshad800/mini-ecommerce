@@ -47,7 +47,7 @@ import React, { useState, useEffect, useCallback } from 'react';
          if (!validateForm()) return;
          setIsLoading(true);
          try {
-           const res = await fetch(`${API_URL}/products`, {
+           const res = await fetch(`http://13.48.30.140:5000/products`, {
              method: 'POST',
              headers: {
                'Content-Type': 'application/json',
