@@ -6,7 +6,9 @@ require('dotenv').config();
 
      const app = express();
      app.use(bodyParser.json());
-     app.use(cors({ origin: '*' })); // Update with S3 URL after front-end deployment
+     const S3_FRONTEND_URL = 'http://irshad-ecommerce-frontend-2025.s3-website.eu-north-1.amazonaws.com';
+
+app.use(cors({ origin: S3_FRONTEND_URL }));
 
      app.use('/products', productRoutes);
 
