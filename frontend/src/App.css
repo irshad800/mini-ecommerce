@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+     .container {
+       max-width: 960px;
+     }
+
+     .card {
+       transition: transform 0.2s, box-shadow 0.2s;
+     }
+
+     .card:hover {
+       transform: translateY(-4px);
+       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+     }
+
+     .form-control:focus {
+       border-color: #1e40af;
+       box-shadow: 0 0 0 0.2rem rgba(30, 64, 175, 0.25);
+     }
+
+     .btn:disabled {
+       opacity: 0.7;
+       cursor: not-allowed;
+     }
+
+     .btn-primary {
+       background-color: #1e40af;
+       border-color: #1e40af;
+     }
+
+     .btn-primary:hover {
+       background-color: #163087;
+       border-color: #163087;
+     }
+
+     .btn-secondary {
+       background-color: #10b981;
+       border-color: #10b981;
+     }
+
+     .btn-secondary:hover {
+       background-color: #0d9466;
+       border-color: #0d9466;
+     }
+
+     .alert-danger {
+       background-color: #f8d7da;
+       color: #721c24;
+     }
